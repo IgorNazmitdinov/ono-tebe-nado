@@ -32,7 +32,7 @@
   flex-direction: column;
   justify-self: end;
   max-width: 240px;
-  font-family: "Raleway" sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-style: normal;
   line-height: 1.35;
@@ -180,7 +180,6 @@
 .lots_card-link-film {
   background-image: url(../images/card-lot-01.jpg);
   background-repeat: no-repeat;
-  background-position: start;
   background-size: cover;
 }
 
@@ -208,14 +207,12 @@
 .lots_card-link-book {
   background-image: url(../images/card-lot-02.jpg);
   background-repeat: no-repeat;
-  background-position: start;
   background-size: cover;
 }
 
 .lots_card-link-picture {
   background-image: url(../images/card-lot-03.jpg);
   background-repeat: no-repeat;
-  background-position: start;
   background-size: cover;
 }
 
@@ -260,8 +257,7 @@
 
 .about_column-title {
   padding: 100px 0 0;
-  font-size: 700;
-  font-size: 40px;
+  font-weight: 700;
   text-transform: uppercase;
   }
 
