@@ -13,7 +13,7 @@
   list-style: circle;
 }
 
-.header_menu-item-activ_no-bulli {
+.header_menu-item_no-bulli {
   list-style: none;
 }
 
@@ -151,7 +151,6 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   height: 100%;
   text-decoration: none;
   background-repeat: no-repeat;
@@ -173,13 +172,12 @@
   flex-direction: column;
   justify-content: space-between;
   width: 430px;
-  height: 450px;
+  min-height: 450px;
   padding: 50px 40px;
 }
 
 .lots_card-link-film {
   background-image: url(../images/card-lot-01.jpg);
-  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -206,13 +204,11 @@
 
 .lots_card-link-book {
   background-image: url(../images/card-lot-02.jpg);
-  background-repeat: no-repeat;
   background-size: cover;
 }
 
 .lots_card-link-picture {
   background-image: url(../images/card-lot-03.jpg);
-  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -229,8 +225,8 @@
 .about {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-template-rows: 1fr 111px;
-  row-gap: 8px;
+  grid-template-rows: 2fr 1fr;
+  row-gap: 5px;
   column-gap: 25px;
   padding: 180px 50px;
 }
@@ -258,6 +254,7 @@
 .about_column-title {
   padding: 100px 0 0;
   font-weight: 700;
+  font-size: 40px;
   text-transform: uppercase;
   }
 
@@ -275,11 +272,11 @@
 
 .footer {
   display: grid;
-  grid-template-columns: 2fr auto 2fr;
-  gap: 356px;
+  grid-template-columns: auto 1fr auto ;
   font-size: 18px;
   list-style: none;
   text-underline-offset: 4px;
+  padding: 0 50px 90px;
 }
 
 .footer_menu-list {
@@ -294,8 +291,11 @@
 .footer_socials {
   display: flex;
   gap: 50px;
-  width: 240px;
-  height: 48px;
   list-style: none;
+}
+  
+.footer_socials-icon {
+  width: 48px;
+  height: 48px;
 }
 /* место для вашего кода */
